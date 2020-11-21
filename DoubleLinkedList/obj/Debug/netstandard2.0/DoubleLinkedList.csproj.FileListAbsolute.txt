@@ -1,0 +1,9 @@
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.csprojAssemblyReference.cache
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.AssemblyInfoInputs.cache
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.AssemblyInfo.cs
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\bin\Debug\netstandard2.0\DoubleLinkedList.deps.json
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\bin\Debug\netstandard2.0\DoubleLinkedList.dll
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\bin\Debug\netstandard2.0\DoubleLinkedList.pdb
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.dll
+C:\Users\vit20\source\repos\DoubleLinkedList\DoubleLinkedList\obj\Debug\netstandard2.0\DoubleLinkedList.pdb
