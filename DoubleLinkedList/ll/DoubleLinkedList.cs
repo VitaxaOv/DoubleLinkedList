@@ -346,10 +346,11 @@ namespace DataDataStructures.LL
             {
                 throw new Exception("Массив пустой");
             }
-            int index = -1;
-            int max = int.MaxValue;
+            int index = 0;
+            int max = _head.Value;
             Node tmp = _head;
-            for (int i = 0; i < Length; i++)
+            tmp = tmp.Next;
+            for (int i = 1; i < Length; i++)
             {
                 if (max > tmp.Value)
                 {
@@ -367,9 +368,10 @@ namespace DataDataStructures.LL
                 throw new Exception("Массив пустой");
             }
             int index = 0;
-            int max = int.MinValue;
+            int max = _head.Value;
             Node tmp = _head;
-            for (int i = 0; i < Length; i++)
+            tmp = tmp.Next;
+            for (int i = 1; i < Length; i++)
             {
                 if (max < tmp.Value)
                 {
@@ -401,6 +403,10 @@ namespace DataDataStructures.LL
         {
             get
             {
+                if (index > Length - 1 || index < 0)
+                {
+                    throw new IndexOutOfRangeException();
+                }
                 Node tmp = EndOrHead(index);
                 if (tmp == _head)
                 {
@@ -422,6 +428,10 @@ namespace DataDataStructures.LL
 
             set
             {
+                if (index > Length - 1 || index < 0)
+                {
+                    throw new IndexOutOfRangeException();
+                }
                 Node tmp = EndOrHead(index);
                 if (tmp == _head)
                 {
