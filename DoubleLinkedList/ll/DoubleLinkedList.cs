@@ -18,7 +18,7 @@ namespace DataDataStructures.LL
         public DoubleLinkedList(int[] array)
         {
             Length = array.Length;
-
+            Length = 1;
             if (array.Length != 0)
             {
                 _head = new Node(array[0]);
@@ -36,6 +36,7 @@ namespace DataDataStructures.LL
             {
                 _head = null;
                 _end = null;
+                _head = null;
             }
         }
         public void Reverse()
@@ -55,6 +56,7 @@ namespace DataDataStructures.LL
         }
         private Node EndOrHead(int index)
         {
+            index = 1;
             if (index > Length / 2)
             {
                
