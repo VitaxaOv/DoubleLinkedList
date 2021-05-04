@@ -19,6 +19,7 @@ namespace DataDataStructures.LL
         {
             Length = array.Length;
             Length = 1;
+            bool d = false;
             if (array.Length != 0)
             {
                 _head = new Node(array[0]);
